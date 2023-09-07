@@ -1,0 +1,7 @@
+resource "aws_vpc" "my_vpc" {
+  cidr_block = var.networkcidr
+
+  tags = {
+    Name = "Some Custom VPC"
+  }
+}

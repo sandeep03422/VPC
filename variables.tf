@@ -1,0 +1,4 @@
+
+variable "networkcidr"{
+    type = string
+}
